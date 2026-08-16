@@ -1,0 +1,91 @@
+<div class="av-13">
+    <input class="av-13__sr" type="checkbox" id="av-13-dark">
+    <label class="av-13__theme" for="av-13-dark">
+    <svg class="av-13__i av-13__i--moon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M20.5 14.3A8.4 8.4 0 0 1 9.7 3.5a8.5 8.5 0 1 0 10.8 10.8Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+    <svg class="av-13__i av-13__i--sun" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.1" stroke="currentColor" stroke-width="1.7"/><path d="M12 3.2v2M12 18.8v2M3.2 12h2M18.8 12h2M5.7 5.7l1.4 1.4M16.9 16.9l1.4 1.4M18.3 5.7l-1.4 1.4M7.1 16.9l-1.4 1.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <span class="av-13__vh">Dark theme</span>
+  </label>
+
+    <div class="av-13__stage">
+        <section class="av-13__wrap" aria-labelledby="av-13-h">
+            <header class="av-13__head">
+                <div class="av-13__headtext">
+                    <p class="av-13__eyebrow">Settings · Members</p>
+                    <h2 class="av-13__h" id="av-13-h">Workspace members</h2>
+                    <p class="av-13__sub">Four of 17 people. Roles align because every row shares one grid.</p>
+                </div>
+                <fieldset class="av-13__seg">
+                    <legend class="av-13__vh">Row density</legend>
+                    <label class="av-13__segbtn"><input type="radio" name="av-13-d" id="av-13-comfy" checked><span>Comfortable</span></label>
+                    <label class="av-13__segbtn"><input type="radio" name="av-13-d" id="av-13-compact"><span>Compact</span></label>
+                </fieldset>
+            </header>
+
+            <ul class="av-13__list">
+                <li class="av-13__row">
+                    <span class="av-13__fig">
+            <img class="av-13__img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=facearea&facepad=2.5" alt="Alex Chen" width="200" height="200" loading="lazy" decoding="async">
+            <span class="av-13__dot av-13__dot--online" aria-hidden="true"></span>
+                    </span>
+                    <span class="av-13__who">
+            <a class="av-13__name" href="#av-13-h">Alex Chen</a>
+            <span class="av-13__mail">alex.chen@northwind.io</span>
+                    </span>
+                    <span class="av-13__role">Staff engineer<span class="av-13__team">Platform</span></span>
+                    <span class="av-13__state"><span class="av-13__pill av-13__pill--online">Online</span><span class="av-13__vh">, active now</span></span>
+                    <button class="av-13__act" type="button" aria-label="Manage Alex Chen's access">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="5" cy="12" r="1.7" fill="currentColor"/><circle cx="12" cy="12" r="1.7" fill="currentColor"/><circle cx="19" cy="12" r="1.7" fill="currentColor"/></svg>
+          </button>
+                </li>
+
+                <li class="av-13__row">
+                    <span class="av-13__fig">
+            <img class="av-13__img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=facearea&facepad=2.5" alt="Priya Sharma" width="200" height="200" loading="lazy" decoding="async">
+            <span class="av-13__dot av-13__dot--busy" aria-hidden="true"></span>
+                    </span>
+                    <span class="av-13__who">
+            <a class="av-13__name" href="#av-13-h">Priya Sharma</a>
+            <span class="av-13__mail">priya@northwind.io</span>
+                    </span>
+                    <span class="av-13__role">Engineering manager<span class="av-13__team">Platform</span></span>
+                    <span class="av-13__state"><span class="av-13__pill av-13__pill--busy">Busy</span><span class="av-13__vh">, in a meeting until 16:00</span></span>
+                    <button class="av-13__act" type="button" aria-label="Manage Priya Sharma's access">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="5" cy="12" r="1.7" fill="currentColor"/><circle cx="12" cy="12" r="1.7" fill="currentColor"/><circle cx="19" cy="12" r="1.7" fill="currentColor"/></svg>
+          </button>
+                </li>
+
+                <li class="av-13__row">
+                    <span class="av-13__fig">
+            <img class="av-13__img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&auto=format&fit=facearea&facepad=2.5" alt="Jordan Lee" width="200" height="200" loading="lazy" decoding="async">
+            <span class="av-13__dot av-13__dot--away" aria-hidden="true"></span>
+                    </span>
+                    <span class="av-13__who">
+            <a class="av-13__name" href="#av-13-h">Jordan Lee</a>
+            <span class="av-13__mail">jordan.lee@northwind.io</span>
+                    </span>
+                    <span class="av-13__role">Site reliability<span class="av-13__team">Infrastructure</span></span>
+                    <span class="av-13__state"><span class="av-13__pill av-13__pill--away">Away</span><span class="av-13__vh">, idle 25 minutes</span></span>
+                    <button class="av-13__act" type="button" aria-label="Manage Jordan Lee's access">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="5" cy="12" r="1.7" fill="currentColor"/><circle cx="12" cy="12" r="1.7" fill="currentColor"/><circle cx="19" cy="12" r="1.7" fill="currentColor"/></svg>
+          </button>
+                </li>
+
+                <li class="av-13__row">
+                    <span class="av-13__fig">
+            <img class="av-13__img" src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&auto=format&fit=facearea&facepad=2.5" alt="Sam Rivera" width="200" height="200" loading="lazy" decoding="async">
+            <span class="av-13__dot av-13__dot--offline" aria-hidden="true"></span>
+                    </span>
+                    <span class="av-13__who">
+            <a class="av-13__name" href="#av-13-h">Sam Rivera</a>
+            <span class="av-13__mail">sam.rivera@northwind.io</span>
+                    </span>
+                    <span class="av-13__role">Data engineer<span class="av-13__team">Analytics</span></span>
+                    <span class="av-13__state"><span class="av-13__pill av-13__pill--offline">Offline</span><span class="av-13__vh">, last seen 2 hours ago</span></span>
+                    <button class="av-13__act" type="button" aria-label="Manage Sam Rivera's access">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="5" cy="12" r="1.7" fill="currentColor"/><circle cx="12" cy="12" r="1.7" fill="currentColor"/><circle cx="19" cy="12" r="1.7" fill="currentColor"/></svg>
+          </button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
